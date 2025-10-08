@@ -1,0 +1,26 @@
+name: Q1 Workflow
+
+on: [push]
+
+
+permissions:
+  contents: write
+
+jobs:
+  copy-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Copier TOTO.txt
+        run: |
+          cp TOTO.txt Q1_archive_TOTO.txt
+
+      - name: Commit et push du nouveau fichier
+        run: |
+          git config user.name "RemiViez"
+          git config user.email "remi.viez@etu.univ-lehavre.fr"
+          git add Q1_archive_TOTO.txt
+          git commit -m "Ajout de Q1_archive_TOTO.txt par workflow"
+          git push
