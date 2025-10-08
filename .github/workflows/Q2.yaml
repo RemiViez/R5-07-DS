@@ -38,4 +38,5 @@ jobs:
         git config user.email "remi.viez@etu.univ-lehavre.fr"
         git add Q2_archive_TOTO.txt
         git commit -m "Ajout de Q2_archive_TOTO.txt avec infos supplémentaires" || echo "Rien à commit"
+        git pull --rebase origin main
         git push

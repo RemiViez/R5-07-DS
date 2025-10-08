@@ -23,4 +23,5 @@ jobs:
           git config user.email "remi.viez@etu.univ-lehavre.fr"
           git add Q1_archive_TOTO.txt
           git commit -m "Ajout de Q1_archive_TOTO.txt par workflow"
+          git pull --rebase origin main
           git push
