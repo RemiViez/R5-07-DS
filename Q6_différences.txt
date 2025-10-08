@@ -1,0 +1,9 @@
+Différences entre Q6_archive_08-10-2025-161402.txt et Q6_archive_08-10-2025-161453.txt :
+12c12
+<                 System.out.print("x" + " ");
+---
+>                 System.out.print("xx" + " ");
+24c24
+< 431 Q6.java
+---
+> 432 Q6.java
