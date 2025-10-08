@@ -1,8 +1,8 @@
 Nom et prénom : Remi Viez
-Date d'exécution : 08/10/2025 15:43:19
+Date d'exécution : 08/10/2025 15:44:09
 
 Contenu de TOTO.txt :
-Ajout
+Ajout modifié
 Taille du fichier TOTO.txt :
 0 TOTO.txt
-5 TOTO.txt
+13 TOTO.txt
