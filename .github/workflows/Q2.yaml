@@ -18,6 +18,8 @@ jobs:
       run: echo "RUN_DATE=$(date -d '+2 hour' '+%d/%m/%Y %H:%M:%S')" >> $GITHUB_ENV
 
         - name: Créer Q2_archive_TOTO.txt avec infos et contenu
+
+    - name: Créer Q2_archive_TOTO.txt avec infos et contenu
       run: |
         echo "Nom et prénom : RemiViez" > Q2_archive_TOTO.txt
         echo "Date d'exécution : $RUN_DATE" >> Q2_archive_TOTO.txt
@@ -31,6 +33,7 @@ jobs:
         echo "" >> Q2_archive_TOTO.txt
         echo "Caracteres:" >> Q2_archive_TOTO.txt
         wc -m TOTO.txt >> Q2_archive_TOTO.txt
+
 
 
     - name: Commit et push du fichier Q2_archive_TOTO.txt
