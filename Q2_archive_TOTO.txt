@@ -1,0 +1,8 @@
+Nom et prénom : Remi Vez
+Date d'exécution : 08/10/2025 15:42:25
+
+Contenu de TOTO.txt :
+Ajout
+Taille du fichier TOTO.txt :
+0 TOTO.txt
+5 TOTO.txt
