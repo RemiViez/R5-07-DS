@@ -1,12 +1,13 @@
 Nom et prénom : RemiViez
-Date d'exécution : 08/10/2025 15:55:16
+Date d'exécution : 08/10/2025 15:56:31
 
 Contenu de TOTO.txt :
 Ajout modifié
 ligne en plus test
+test Q3
 Taille du fichier TOTO.txt :
 Lignes:
-1 TOTO.txt
+2 TOTO.txt
 
 Caracteres:
-32 TOTO.txt
+40 TOTO.txt
