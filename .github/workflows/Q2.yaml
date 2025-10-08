@@ -19,7 +19,7 @@ jobs:
 
     - name: Créer Q2_archive_TOTO.txt avec infos et contenu
       run: |
-        echo "Nom et prénom : Remi Viez" > Q2_archive_TOTO.txt
+        echo "Nom et prénom : RemiViez" > Q2_archive_TOTO.txt
         echo "Date d'exécution : $RUN_DATE" >> Q2_archive_TOTO.txt
         echo "" >> Q2_archive_TOTO.txt
         echo "Contenu de TOTO.txt :" >> Q2_archive_TOTO.txt
@@ -27,7 +27,9 @@ jobs:
         echo "" >> Q2_archive_TOTO.txt
         echo "Taille du fichier TOTO.txt :" >> Q2_archive_TOTO.txt
         wc -l TOTO.txt >> Q2_archive_TOTO.txt
+        echo "# Le nombre indiqué ci-dessus correspond au nombre de lignes dans le fichier." >> Q2_archive_TOTO.txt
         wc -m TOTO.txt >> Q2_archive_TOTO.txt
+        echo "# Le nombre indiqué ci-dessus correspond au nombre de caractères dans le fichier." >> Q2_archive_TOTO.txt
 
     - name: Commit et push du fichier Q2_archive_TOTO.txt
       run: |
