@@ -7,7 +7,7 @@ public class Q6 {
         int N = Integer.parseInt(args[0]);
         for (int i = N; i >= 1; i--) {
             for (int j = 1; j <= i; j++) {
-                System.out.print("x" + " ");
+                System.out.print("xx" + " ");
             }
             System.out.println();
         }
