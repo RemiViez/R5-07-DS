@@ -1,8 +1,11 @@
-Nom et prénom : Remi Viez
-Date d'exécution : 08/10/2025 15:44:09
+Nom et prénom : RemiViez
+Date d'exécution : 08/10/2025 15:46:13
 
 Contenu de TOTO.txt :
 Ajout modifié
+ligne en plus
 Taille du fichier TOTO.txt :
-0 TOTO.txt
-13 TOTO.txt
+1 TOTO.txt
+# Le nombre indiqué ci-dessus correspond au nombre de lignes dans le fichier.
+27 TOTO.txt
+# Le nombre indiqué ci-dessus correspond au nombre de caractères dans le fichier.
