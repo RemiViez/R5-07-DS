@@ -1,7 +1,7 @@
 public class Q5 {
     public static void main(String[] args) {
         if (args.length > 1) {
-            System.out.println("Usage: java Q4 [<nombre de termes>]");
+            System.out.println("Usage: java Q5 [<nombre de termes>]");
             return;
         }
         int N = Integer.parseInt(args[0]);
